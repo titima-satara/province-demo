@@ -1,4 +1,4 @@
-package com.example.demo.controller;
+/*package com.example.demo.controller;
 
 import com.example.demo.model.ProvincesData;
 import com.example.demo.model.ProvincesIDRequest;
@@ -30,7 +30,7 @@ public class ProvincesController {
     }
 
     //ดูข้อมูลจังหวัดทั้งหมดใน database
-    @GetMapping(value = "/get/provincesAll")
+    @GetMapping(value = "/")
     public ResponseEntity<?> getAllProvinces() {
         return ResponseEntity.ok(service.getAllProvinces());
     }
@@ -77,3 +77,4 @@ public class ProvincesController {
         return request.toString();
     }
 }
+*/
